@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PUWOloaQwaIPiATcJxCgvZ9WzcFKxrub65SFq7brNW4=",
+  "Source": "Api_GetData",
+  "BasePath": "_content/Api_GetData",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+D:\project\Get_Api\GetApiData\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\project\Get_Api\GetApiData\DTO\bin\Debug\net8.0\DTO.dll
+D:\project\Get_Api\GetApiData\DTO\bin\Debug\net8.0\DTO.pdb
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\DTO.dll
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\DTO.pdb
+D:\project\Get_Api\GetApiData\DTO\obj\Debug\net8.0\ref\DTO.dll

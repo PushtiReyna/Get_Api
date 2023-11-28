@@ -1,0 +1,14 @@
+D:\project\Get_Api\GetApiData\Data layer\bin\Debug\net8.0\Data layer.deps.json
+D:\project\Get_Api\GetApiData\Data layer\bin\Debug\net8.0\Data layer.runtimeconfig.json
+D:\project\Get_Api\GetApiData\Data layer\bin\Debug\net8.0\Data layer.dll
+D:\project\Get_Api\GetApiData\Data layer\bin\Debug\net8.0\Data layer.pdb
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.csproj.AssemblyReference.cache
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.AssemblyInfoInputs.cache
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.AssemblyInfo.cs
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.csproj.CoreCompileInputs.cache
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.dll
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\refint\Data layer.dll
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.pdb
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\Data layer.genruntimeconfig.cache
+D:\project\Get_Api\GetApiData\Data layer\obj\Debug\net8.0\ref\Data layer.dll

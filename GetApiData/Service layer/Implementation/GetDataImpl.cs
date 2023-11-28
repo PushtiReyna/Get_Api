@@ -16,9 +16,9 @@ namespace Service_layer.Implementation
         {
             _getDataBLL = getDataBLL;
         }
-        public CommomResponse GetAll()
+        public async Task<CommomResponse> GetAll()
         {
-            return _getDataBLL.GetAll();
+            return  await _getDataBLL.GetAll();
         }
     }
 }

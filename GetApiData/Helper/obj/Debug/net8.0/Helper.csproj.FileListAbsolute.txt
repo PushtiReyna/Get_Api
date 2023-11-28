@@ -9,3 +9,15 @@ D:\project\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.dll
 D:\project\Get_Api\GetApiData\Helper\obj\Debug\net8.0\refint\Helper.dll
 D:\project\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.pdb
 D:\project\Get_Api\GetApiData\Helper\obj\Debug\net8.0\ref\Helper.dll
+D:\project\Get_Api\Get_Api\GetApiData\Helper\bin\Debug\net8.0\Helper.deps.json
+D:\project\Get_Api\Get_Api\GetApiData\Helper\bin\Debug\net8.0\Helper.dll
+D:\project\Get_Api\Get_Api\GetApiData\Helper\bin\Debug\net8.0\Helper.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.AssemblyInfoInputs.cache
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.AssemblyInfo.cs
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.csproj.CoreCompileInputs.cache
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.sourcelink.json
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.dll
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\refint\Helper.dll
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\Helper.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Helper\obj\Debug\net8.0\ref\Helper.dll

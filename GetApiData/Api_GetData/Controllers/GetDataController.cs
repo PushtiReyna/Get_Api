@@ -20,12 +20,12 @@ namespace Api_GetData.Controllers
 
         [HttpGet]
        
-        public CommomResponse GetAllCategory()
+        public async Task<CommomResponse> GetAll()
         {
             CommomResponse response = new CommomResponse();
             try
             {
-                response = _getData.GetAll();
+                response = await _getData.GetAll();
             }
             catch { throw; }
             return response;

@@ -17,3 +17,23 @@ D:\project\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.dll
 D:\project\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\refint\Business layer.dll
 D:\project\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.pdb
 D:\project\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\ref\Business layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Business layer.deps.json
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Business layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Business layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Data layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\DTO.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Helper.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Data layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\DTO.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\bin\Debug\net8.0\Helper.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.csproj.AssemblyReference.cache
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.AssemblyInfoInputs.cache
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.AssemblyInfo.cs
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.csproj.CoreCompileInputs.cache
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.sourcelink.json
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.csproj.CopyComplete
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\refint\Business layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\Business layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Business layer\obj\Debug\net8.0\ref\Business layer.dll

@@ -19,3 +19,25 @@ D:\project\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.dll
 D:\project\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\refint\Service layer.dll
 D:\project\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.pdb
 D:\project\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\ref\Service layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Service layer.deps.json
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Service layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Service layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Business layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Data layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\DTO.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Helper.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Business layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\DTO.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Data layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\bin\Debug\net8.0\Helper.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.csproj.AssemblyReference.cache
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.AssemblyInfoInputs.cache
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.AssemblyInfo.cs
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.csproj.CoreCompileInputs.cache
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.sourcelink.json
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.csproj.CopyComplete
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\refint\Service layer.dll
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\Service layer.pdb
+D:\project\Get_Api\Get_Api\GetApiData\Service layer\obj\Debug\net8.0\ref\Service layer.dll

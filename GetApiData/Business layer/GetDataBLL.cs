@@ -2,10 +2,12 @@
 using Azure.Core;
 using Data_layer;
 using Data_layer.Models;
+using DTO.GetData;
 using Helper.CommonModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
@@ -22,69 +24,98 @@ namespace Business_layer
             _db = db;
 
         }
-        public CommomResponse GetAll()
+        public async Task<CommomResponse> GetAll()
         {
             CommomResponse response = new CommomResponse();
             try
             {
+                #region MyRegion
+                //using (var client = new HttpClient())
+                //{
+                //    client.BaseAddress = new Uri("https://movie-database-alternative.p.rapidapi.com");
+
+                //    client.DefaultRequestHeaders.Clear();
+                //    Movie page = new Movie()
+                //    {
+                //        s = "Avengers Endgame"
+                //    };
+                //    var paging = JsonConvert.SerializeObject(page);
+                //    client.DefaultRequestHeaders.Add("X-RapidAPI-Key", "71dcebf752msh9f584d63112d25dp140799jsn6fa0f402cc89");
+                //    client.DefaultRequestHeaders.Add("X-RapidAPI-Host", "movie-database-alternative.p.rapidapi.com"); /*https://localhost:7228*/
+                //    HttpContent requestContent = new StringContent(paging, Encoding.UTF8, "application/json");
+                //    HttpResponseMessage response1 = client.PostAsJsonAsync(client.BaseAddress, requestContent).Result;
+
+
+                //    var content = response1.Content.ReadAsStringAsync();
+                //} 
+                //client.DefaultRequestHeaders.Add("access_key", "b1f4dde6b15d86c6cb6894462a96d47e");
+                //client.DefaultRequestHeaders.Add("&symbols", "AAPL");
+                #endregion
+
                 using (var client = new HttpClient())
                 {
-                    client.BaseAddress = new Uri("https://movie-database-alternative.p.rapidapi.com");
+                    client.BaseAddress = new Uri("http://api.marketstack.com/v1/eod?access_key=b1f4dde6b15d86c6cb6894462a96d47e&symbols=AAPL");
 
                     client.DefaultRequestHeaders.Clear();
-                    Movie page = new Movie()
+                    //pagination page = new pagination()
+                    //{
+                    //    limit = 100,
+                    //    offset = 0,
+                    //    count = 100,
+                    //    total = 251
+                    //};
+                    //var paging = JsonConvert.SerializeObject(page);
+                    //HttpContent requestContent = new StringContent(paging, Encoding.UTF8, "application/json");
+
+                    HttpResponseMessage response1 = client.GetAsync(client.BaseAddress).Result;
+
+                    ///response1.EnsureSuccessStatusCode();
+                    var content = await response1.Content.ReadAsStringAsync();
+
+
+                    // var json = JsonConvert.SerializeObject(content);
+
+                    //var dataTable = JsonConvert.DeserializeObject(content);
+
+                    //string apiResponse = await response1.Content.ReadAsStringAsync();
+                    // var data = JsonConvert.DeserializeObject<List<Datum>>(apiResponse);
+
+                  
+                    var getDataReqDTO = JsonConvert.DeserializeObject<GetDataReqDTO>(content);
+                    //List<GetDataReqDTO> getDataReqDTOs = getDataReqDTO.Adapt<List<GetDataReqDTO>>();
+                    List<Datum> data = new List<Datum>();
+                    foreach (var ITEM in getDataReqDTO.data)
                     {
-                        s = "Avengers Endgame"
-                    };
-                    var paging = JsonConvert.SerializeObject(page);
-                    client.DefaultRequestHeaders.Add("X-RapidAPI-Key", "71dcebf752msh9f584d63112d25dp140799jsn6fa0f402cc89");
-                    client.DefaultRequestHeaders.Add("X-RapidAPI-Host", "movie-database-alternative.p.rapidapi.com"); /*https://localhost:7228*/
-                    HttpContent requestContent = new StringContent(paging, Encoding.UTF8, "application/json");
-                    HttpResponseMessage response1 = client.PostAsJsonAsync(client.BaseAddress, requestContent).Result;
+                        Datum datum = new Datum();
+                        datum.AdjVolume = ITEM.adj_volume;
+   
+                        data.Add(datum);
+                    }
+
+                    _db.Data.AddRange(data);
+                    _db.SaveChanges();
 
 
-                    var content = response1.Content.ReadAsStringAsync();
                 }
 
-                using (var client = new HttpClient())
-                {
-                    client.BaseAddress = new Uri("https://api-football-v1.p.rapidapi.com/v3/timezone");
-
-                    client.DefaultRequestHeaders.Clear();
-                    Paging page = new Paging()
-                    {
-                        current = 1,
-                        total = 1
-                    };
-                    var paging = JsonConvert.SerializeObject(page);
-                    client.DefaultRequestHeaders.Add("X-RapidAPI-Key", "71dcebf752msh9f584d63112d25dp140799jsn6fa0f402cc89");
-                    client.DefaultRequestHeaders.Add("X-RapidAPI-Host", "https://localhost:7228/api-football-v1.p.rapidapi.com");
-                    HttpContent requestContent = new StringContent(paging, Encoding.UTF8, "application/json");
-
-                    HttpResponseMessage response1 = client.PostAsJsonAsync(client.BaseAddress, requestContent).Result;
-
-                    response1.EnsureSuccessStatusCode();
-                    var content = response1.Content.ReadAsStringAsync();
-                }
                 #region MyRegion
 
                 //if (response1.IsSuccessStatusCode)
                 //{
 
 
-                //    var thirdPartyData = response1.Content.ReadAsAsync<IEnumerable<TimezoneMst>>();
 
-                //List<TimezoneMst> list = new List<TimezoneMst>();
-                //   foreach (var data in content)
+
+                //  var thirdPartyData = response1.Content.ReadAsAsync<IEnumerable<Datum>>();
+
+                //    List<Datum> list = new List<Datum>();
+                //    foreach (var item in dataTable)
                 //    {
-                //list.Add(new TimezoneMst()
-                //{
-                //    Field    = data
-                //})
-                //        _db.TimezoneMsts.Add(data);
+
+                //        _db.SaveChanges();
                 //    }
 
-                //     _db.SaveChangesAsync();
+                //    //_db.SaveChangesAsync();
 
                 //}
 

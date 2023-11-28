@@ -9,6 +9,6 @@ namespace Service_layer.Interface
 {
     public interface IGetData
     {
-        public CommomResponse GetAll();
+        public Task<CommomResponse> GetAll();
     }
 }

@@ -1,10 +1,10 @@
-﻿using Api_GetData.ViewModel;
-using DTO.GetData;
+﻿using DTO.GetData;
 using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Helper.CommonModel;
 using Service_layer.Interface;
+using Serilog;
 
 namespace Api_GetData.Controllers
 {
@@ -22,6 +22,7 @@ namespace Api_GetData.Controllers
        
         public async Task<CommomResponse> GetAll()
         {
+            Log.Information("Get api data and save into the database");
             CommomResponse response = new CommomResponse();
             try
             {

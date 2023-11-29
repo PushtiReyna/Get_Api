@@ -183,6 +183,15 @@ D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Microsoft.Sql
 D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Serilog.Sinks.File.dll
 D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\project\Get_Api\Get_Api\GetApiData\Api_GetData\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

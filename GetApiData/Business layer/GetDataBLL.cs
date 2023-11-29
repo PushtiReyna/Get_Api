@@ -51,7 +51,6 @@ namespace Business_layer
 
                             lstApiGetDataMst.Add(apiGetDataMst);
                         }
-
                         _db.ApiGetDataMsts.AddRange(lstApiGetDataMst);
                         _db.SaveChanges();
                         response.Status = true;
@@ -66,7 +65,6 @@ namespace Business_layer
                 }
             }
             catch { throw; }
-
             return response;
         }
     }

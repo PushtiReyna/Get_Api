@@ -37,8 +37,4 @@ namespace DTO.GetData
             public int total { get; set; }
         }
     }
-    
-
-
-
 }
